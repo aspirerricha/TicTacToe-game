@@ -5,7 +5,7 @@ body{
 
 
 .container{
-    height: 70vh;/*The container takes 70% of the screen height. Enough space to center the game.*/
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,6 @@ body{
 }
 
 .game{
-    /*The board is a square that scales with screen size (60% of the smaller side of the viewport).*/
     height:60vmin;
     width:60vmin;
     display: flex;
@@ -24,7 +23,6 @@ body{
 }
 
 .box{
-    /*3X3 colums inside 60 vmin so each box->60/3=20vmin(18vmin for spacing btw buttons)*/
     height: 18vmin;
     width:18vmin;
     border-radius: 1rem;
@@ -78,4 +76,5 @@ body{
 
 .hidegame{
     display:none;
+
 }
