@@ -1,0 +1,81 @@
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+
+.container{
+    height: 70vh;/*The container takes 70% of the screen height. Enough space to center the game.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    /*The board is a square that scales with screen size (60% of the smaller side of the viewport).*/
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    /*3X3 colums inside 60 vmin so each box->60/3=20vmin(18vmin for spacing btw buttons)*/
+    height: 18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 10vmin;
+    background-color: #ffffc7;
+}
+
+.box:hover{
+    background-color: yellow;
+}
+
+#reset{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+#new-btn{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 1rem;
+    border: none; 
+}
+
+#msg{
+    font-size: 5vmin;  
+    color:rgb(255, 255, 255);
+
+}
+
+.msg-container{
+    height:90vmin;
+    
+
+}
+
+.hide{
+    display: none;
+}
+.excitedimg{
+    margin-top: 50vmin;;
+}
+
+.hidegame{
+    display:none;
+}
