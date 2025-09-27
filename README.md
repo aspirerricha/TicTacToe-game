@@ -114,12 +114,6 @@ cd TicTacToe-game
 - Check if localStorage is enabled in your browser
 - Private/Incognito mode may not save data
 
-## 👨‍💻 Developer
-
-**Richa** 
-- GitHub: [@aspirerricha](https://github.com/aspirerricha)
-- Project Link: [https://github.com/aspirerricha/TicTacToe-game](https://github.com/aspirerricha/TicTacToe-game)
-
 **Happy Gaming!** 🎮✨
 
 
@@ -129,4 +123,3 @@ cd TicTacToe-game
 
 ---
 
-*This README is optimized for GitHub Markdown. Replace screenshot paths with your actual images or remove the screenshots section if not needed.*
